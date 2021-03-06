@@ -1,5 +1,5 @@
 body{
-    background-color: mediumaquamarine;
+    background-color: rgb(175, 200, 192);
 }
 #headbar {
     background-color: rgba(255, 255, 255, 0.9);
@@ -8,8 +8,43 @@ body{
     border-radius: 10px;
     padding-bottom: 5px;
     padding-top: 5px;
-    padding-left:20px;
     width: 60%;
     height: auto;
-    font-family: Raleway;
+    font-family: Lovelo;
     }
+#content {
+    background-color: rgba(214, 230, 230, 0.9);
+    box-shadow: 0px 8px 16px 0px;
+    margin-top: 10px;
+    border-radius: 10px;
+    border-radius: 10px;
+    padding-bottom: 2px;
+    padding-top: 2px;
+    width: 40%;
+    height: auto;
+    font-family: Montserrat;
+    text-align: center;
+    line-height: 0.6;
+    clear:left;
+    } 
+.explanation{
+    text-align: left;
+    opacity: 1;
+    padding-left: 10px;
+    float:left;
+   
+}    
+.text{
+    font-family: Montserrat;
+    text-align: left;
+    line-height: 0.6;
+    opacity:0;
+    line-height: 0.6;
+    padding-left: 10px;
+    float:right;
+    clear:right;
+}    
+.explanation:hover .text{
+    opacity: 1;
+}    
+   
